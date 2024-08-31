@@ -1,0 +1,16 @@
+{
+  "name": "api_cpf",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "API que verifica se CPF foi fornecido, remove caracteres não numéricos, verifica se o CPF tem 11 dígitos e se todos os dígitos não são iguais. Em seguida, calcula os dígitos verificadores e compara com os dígitos fornecidos no CPF",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}
